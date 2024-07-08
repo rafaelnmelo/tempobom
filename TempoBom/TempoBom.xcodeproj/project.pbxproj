@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D702C3C1F4800599D84 /* AppDelegate.swift */; };
 		8DB45D732C3C1F4800599D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */; };
-		8DB45D752C3C1F4800599D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D742C3C1F4800599D84 /* ViewController.swift */; };
+		8DB45D752C3C1F4800599D84 /* WeatherListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D742C3C1F4800599D84 /* WeatherListTableViewController.swift */; };
 		8DB45D782C3C1F4800599D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D762C3C1F4800599D84 /* Main.storyboard */; };
 		8DB45D7A2C3C1F4C00599D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D792C3C1F4C00599D84 /* Assets.xcassets */; };
 		8DB45D7D2C3C1F4C00599D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D7B2C3C1F4C00599D84 /* LaunchScreen.storyboard */; };
 		8DB45D882C3C1F4D00599D84 /* TempoBomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */; };
 		8DB45D922C3C1F4D00599D84 /* TempoBomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */; };
 		8DB45D942C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */; };
+		8DB45DA42C3C228E00599D84 /* AddWeatherCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45DA32C3C228E00599D84 /* AddWeatherCityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		8DB45D6D2C3C1F4800599D84 /* TempoBom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoBom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB45D702C3C1F4800599D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8DB45D742C3C1F4800599D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DB45D742C3C1F4800599D84 /* WeatherListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListTableViewController.swift; sourceTree = "<group>"; };
 		8DB45D772C3C1F4800599D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DB45D792C3C1F4C00599D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB45D7C2C3C1F4C00599D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		8DB45D8D2C3C1F4D00599D84 /* TempoBomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoBomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomUITests.swift; sourceTree = "<group>"; };
 		8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DB45DA32C3C228E00599D84 /* AddWeatherCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +139,9 @@
 		8DB45DA12C3C21DA00599D84 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8DB45D742C3C1F4800599D84 /* ViewController.swift */,
+				8DB45D742C3C1F4800599D84 /* WeatherListTableViewController.swift */,
 				8DB45D762C3C1F4800599D84 /* Main.storyboard */,
+				8DB45DA32C3C228E00599D84 /* AddWeatherCityViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -282,8 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB45D752C3C1F4800599D84 /* ViewController.swift in Sources */,
+				8DB45D752C3C1F4800599D84 /* WeatherListTableViewController.swift in Sources */,
 				8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */,
+				8DB45DA42C3C228E00599D84 /* AddWeatherCityViewController.swift in Sources */,
 				8DB45D732C3C1F4800599D84 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -444,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

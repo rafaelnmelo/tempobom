@@ -11,7 +11,7 @@
         <!--Tempo Bom-->
         <scene sceneID="ZfG-hs-AKk">
             <objects>
-                <tableViewController id="sCL-L2-YwO" sceneMemberID="viewController">
+                <tableViewController id="sCL-L2-YwO" customClass="WeatherListTableViewController" customModule="TempoBom" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="GaV-ju-b4L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,7 +47,7 @@
         <!--Nova Cidade-->
         <scene sceneID="JQT-j7-ZOF">
             <objects>
-                <viewController id="VTA-4M-stt" sceneMemberID="viewController">
+                <viewController id="VTA-4M-stt" customClass="AddWeatherCityViewController" customModule="TempoBom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k9t-C8-aJa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

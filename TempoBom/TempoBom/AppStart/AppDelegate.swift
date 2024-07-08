@@ -6,8 +6,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupBarAppearence()
         return true
+    }
+    
+    func setupBarAppearence() {
+        let barAppearance = UINavigationBarAppearance()
+        let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        //BarButtons ItemColor
+        UIBarButtonItem.appearance().tintColor = .white
+        
+        //Collapsed TitleColor
+        barAppearance.titleTextAttributes = textAttributes
+        
+        //Large TitleColor
+        barAppearance.backgroundColor = .systemOrange
+        barAppearance.largeTitleTextAttributes = textAttributes
+        
+        if #available(iOS 13, *) {
+            UINavigationBar.appearance().standardAppearance = barAppearance
+            UINavigationBar.appearance().scrollEdgeAppearance = barAppearance
+        }
     }
 
     // MARK: UISceneSession Lifecycle
