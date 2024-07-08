@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D702C3C1F4800599D84 /* AppDelegate.swift */; };
+		8DB45D732C3C1F4800599D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */; };
+		8DB45D752C3C1F4800599D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D742C3C1F4800599D84 /* ViewController.swift */; };
+		8DB45D782C3C1F4800599D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D762C3C1F4800599D84 /* Main.storyboard */; };
+		8DB45D7A2C3C1F4C00599D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D792C3C1F4C00599D84 /* Assets.xcassets */; };
+		8DB45D7D2C3C1F4C00599D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D7B2C3C1F4C00599D84 /* LaunchScreen.storyboard */; };
+		8DB45D882C3C1F4D00599D84 /* TempoBomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */; };
+		8DB45D922C3C1F4D00599D84 /* TempoBomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */; };
+		8DB45D942C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB45D842C3C1F4D00599D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB45D652C3C1F4800599D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB45D6C2C3C1F4800599D84;
+			remoteInfo = TempoBom;
+		};
+		8DB45D8E2C3C1F4D00599D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB45D652C3C1F4800599D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB45D6C2C3C1F4800599D84;
+			remoteInfo = TempoBom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DB45D6D2C3C1F4800599D84 /* TempoBom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoBom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB45D702C3C1F4800599D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DB45D742C3C1F4800599D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DB45D772C3C1F4800599D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DB45D792C3C1F4C00599D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DB45D7C2C3C1F4C00599D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DB45D7E2C3C1F4C00599D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB45D832C3C1F4D00599D84 /* TempoBomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoBomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomTests.swift; sourceTree = "<group>"; };
+		8DB45D8D2C3C1F4D00599D84 /* TempoBomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoBomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomUITests.swift; sourceTree = "<group>"; };
+		8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB45D6A2C3C1F4800599D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB45D802C3C1F4D00599D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB45D8A2C3C1F4D00599D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB45D642C3C1F4800599D84 = {
+			isa = PBXGroup;
+			children = (
+				8DB45D6F2C3C1F4800599D84 /* TempoBom */,
+				8DB45D862C3C1F4D00599D84 /* TempoBomTests */,
+				8DB45D902C3C1F4D00599D84 /* TempoBomUITests */,
+				8DB45D6E2C3C1F4800599D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB45D6E2C3C1F4800599D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45D6D2C3C1F4800599D84 /* TempoBom.app */,
+				8DB45D832C3C1F4D00599D84 /* TempoBomTests.xctest */,
+				8DB45D8D2C3C1F4D00599D84 /* TempoBomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB45D6F2C3C1F4800599D84 /* TempoBom */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45DA02C3C21D100599D84 /* AppStart */,
+				8DB45DA12C3C21DA00599D84 /* Controllers */,
+				8DB45DA22C3C21E300599D84 /* Resources */,
+				8DB45D7E2C3C1F4C00599D84 /* Info.plist */,
+			);
+			path = TempoBom;
+			sourceTree = "<group>";
+		};
+		8DB45D862C3C1F4D00599D84 /* TempoBomTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */,
+			);
+			path = TempoBomTests;
+			sourceTree = "<group>";
+		};
+		8DB45D902C3C1F4D00599D84 /* TempoBomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */,
+				8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */,
+			);
+			path = TempoBomUITests;
+			sourceTree = "<group>";
+		};
+		8DB45DA02C3C21D100599D84 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45D702C3C1F4800599D84 /* AppDelegate.swift */,
+				8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */,
+				8DB45D7B2C3C1F4C00599D84 /* LaunchScreen.storyboard */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		8DB45DA12C3C21DA00599D84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45D742C3C1F4800599D84 /* ViewController.swift */,
+				8DB45D762C3C1F4800599D84 /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8DB45DA22C3C21E300599D84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DB45D792C3C1F4C00599D84 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB45D6C2C3C1F4800599D84 /* TempoBom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB45D972C3C1F4D00599D84 /* Build configuration list for PBXNativeTarget "TempoBom" */;
+			buildPhases = (
+				8DB45D692C3C1F4800599D84 /* Sources */,
+				8DB45D6A2C3C1F4800599D84 /* Frameworks */,
+				8DB45D6B2C3C1F4800599D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempoBom;
+			productName = TempoBom;
+			productReference = 8DB45D6D2C3C1F4800599D84 /* TempoBom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB45D822C3C1F4D00599D84 /* TempoBomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB45D9A2C3C1F4D00599D84 /* Build configuration list for PBXNativeTarget "TempoBomTests" */;
+			buildPhases = (
+				8DB45D7F2C3C1F4D00599D84 /* Sources */,
+				8DB45D802C3C1F4D00599D84 /* Frameworks */,
+				8DB45D812C3C1F4D00599D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB45D852C3C1F4D00599D84 /* PBXTargetDependency */,
+			);
+			name = TempoBomTests;
+			productName = TempoBomTests;
+			productReference = 8DB45D832C3C1F4D00599D84 /* TempoBomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DB45D8C2C3C1F4D00599D84 /* TempoBomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB45D9D2C3C1F4D00599D84 /* Build configuration list for PBXNativeTarget "TempoBomUITests" */;
+			buildPhases = (
+				8DB45D892C3C1F4D00599D84 /* Sources */,
+				8DB45D8A2C3C1F4D00599D84 /* Frameworks */,
+				8DB45D8B2C3C1F4D00599D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB45D8F2C3C1F4D00599D84 /* PBXTargetDependency */,
+			);
+			name = TempoBomUITests;
+			productName = TempoBomUITests;
+			productReference = 8DB45D8D2C3C1F4D00599D84 /* TempoBomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB45D652C3C1F4800599D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8DB45D6C2C3C1F4800599D84 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8DB45D822C3C1F4D00599D84 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8DB45D6C2C3C1F4800599D84;
+					};
+					8DB45D8C2C3C1F4D00599D84 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8DB45D6C2C3C1F4800599D84;
+					};
+				};
+			};
+			buildConfigurationList = 8DB45D682C3C1F4800599D84 /* Build configuration list for PBXProject "TempoBom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB45D642C3C1F4800599D84;
+			productRefGroup = 8DB45D6E2C3C1F4800599D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB45D6C2C3C1F4800599D84 /* TempoBom */,
+				8DB45D822C3C1F4D00599D84 /* TempoBomTests */,
+				8DB45D8C2C3C1F4D00599D84 /* TempoBomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB45D6B2C3C1F4800599D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB45D7D2C3C1F4C00599D84 /* LaunchScreen.storyboard in Resources */,
+				8DB45D7A2C3C1F4C00599D84 /* Assets.xcassets in Resources */,
+				8DB45D782C3C1F4800599D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB45D812C3C1F4D00599D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB45D8B2C3C1F4D00599D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB45D692C3C1F4800599D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB45D752C3C1F4800599D84 /* ViewController.swift in Sources */,
+				8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */,
+				8DB45D732C3C1F4800599D84 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB45D7F2C3C1F4D00599D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB45D882C3C1F4D00599D84 /* TempoBomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB45D892C3C1F4D00599D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB45D942C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift in Sources */,
+				8DB45D922C3C1F4D00599D84 /* TempoBomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB45D852C3C1F4D00599D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB45D6C2C3C1F4800599D84 /* TempoBom */;
+			targetProxy = 8DB45D842C3C1F4D00599D84 /* PBXContainerItemProxy */;
+		};
+		8DB45D8F2C3C1F4D00599D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB45D6C2C3C1F4800599D84 /* TempoBom */;
+			targetProxy = 8DB45D8E2C3C1F4D00599D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB45D762C3C1F4800599D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB45D772C3C1F4800599D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DB45D7B2C3C1F4C00599D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB45D7C2C3C1F4C00599D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB45D952C3C1F4D00599D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DB45D962C3C1F4D00599D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB45D982C3C1F4D00599D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBHB6DPPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TempoBom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnunes.TempoBom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB45D992C3C1F4D00599D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBHB6DPPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TempoBom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnunes.TempoBom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DB45D9B2C3C1F4D00599D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBHB6DPPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnunes.TempoBomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoBom.app/TempoBom";
+			};
+			name = Debug;
+		};
+		8DB45D9C2C3C1F4D00599D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBHB6DPPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnunes.TempoBomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoBom.app/TempoBom";
+			};
+			name = Release;
+		};
+		8DB45D9E2C3C1F4D00599D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBHB6DPPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnunes.TempoBomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempoBom;
+			};
+			name = Debug;
+		};
+		8DB45D9F2C3C1F4D00599D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBHB6DPPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnunes.TempoBomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempoBom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB45D682C3C1F4800599D84 /* Build configuration list for PBXProject "TempoBom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB45D952C3C1F4D00599D84 /* Debug */,
+				8DB45D962C3C1F4D00599D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB45D972C3C1F4D00599D84 /* Build configuration list for PBXNativeTarget "TempoBom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB45D982C3C1F4D00599D84 /* Debug */,
+				8DB45D992C3C1F4D00599D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB45D9A2C3C1F4D00599D84 /* Build configuration list for PBXNativeTarget "TempoBomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB45D9B2C3C1F4D00599D84 /* Debug */,
+				8DB45D9C2C3C1F4D00599D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB45D9D2C3C1F4D00599D84 /* Build configuration list for PBXNativeTarget "TempoBomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB45D9E2C3C1F4D00599D84 /* Debug */,
+				8DB45D9F2C3C1F4D00599D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB45D652C3C1F4800599D84 /* Project object */;
+}
