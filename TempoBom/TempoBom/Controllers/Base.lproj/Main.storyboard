@@ -60,7 +60,7 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="compose" id="Ma8-Yy-Iaz"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sxs-Nd-XjR">
                             <connections>
-                                <segue destination="2gS-9Y-evM" kind="presentation" id="ULn-ry-vcq"/>
+                                <segue destination="2gS-9Y-evM" kind="presentation" identifier="AddWeatherViewController" id="ULn-ry-vcq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
