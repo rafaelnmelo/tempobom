@@ -25,6 +25,7 @@
 		8DB5C8282C3D773100742375 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB5C8272C3D773100742375 /* String+Extension.swift */; };
 		8DB5C82C2C3D774D00742375 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB5C82B2C3D774D00742375 /* Data+Extension.swift */; };
 		8DB5C82E2C3D79D400742375 /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB5C82D2C3D79D400742375 /* WeatherListViewModel.swift */; };
+		8DB5C8302C3D824200742375 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB5C82F2C3D824200742375 /* Double+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		8DB5C8272C3D773100742375 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		8DB5C82B2C3D774D00742375 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		8DB5C82D2C3D79D400742375 /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		8DB5C82F2C3D824200742375 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			children = (
 				8DB5C8272C3D773100742375 /* String+Extension.swift */,
 				8DB5C82B2C3D774D00742375 /* Data+Extension.swift */,
+				8DB5C82F2C3D824200742375 /* Double+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				8DB5C8222C3D763000742375 /* AddWeatherViewModel.swift in Sources */,
 				8DB45D752C3C1F4800599D84 /* WeatherListTableViewController.swift in Sources */,
 				8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */,
+				8DB5C8302C3D824200742375 /* Double+Extension.swift in Sources */,
 				8DB5C81F2C3D72DA00742375 /* WeatherResponse.swift in Sources */,
 				8D748F712C3C327B00B2590E /* WeatherCell.swift in Sources */,
 				8DB45DA42C3C228E00599D84 /* AddWeatherCityViewController.swift in Sources */,
