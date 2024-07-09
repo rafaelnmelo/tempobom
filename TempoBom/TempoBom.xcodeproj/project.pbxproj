@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D748F712C3C327B00B2590E /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D748F702C3C327B00B2590E /* WeatherCell.swift */; };
 		8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D702C3C1F4800599D84 /* AppDelegate.swift */; };
 		8DB45D732C3C1F4800599D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */; };
 		8DB45D752C3C1F4800599D84 /* WeatherListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D742C3C1F4800599D84 /* WeatherListTableViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D748F702C3C327B00B2590E /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		8DB45D6D2C3C1F4800599D84 /* TempoBom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoBom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB45D702C3C1F4800599D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB45D722C3C1F4800599D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D748F6F2C3C326300B2590E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D748F702C3C327B00B2590E /* WeatherCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		8DB45D642C3C1F4800599D84 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				8DB45DA02C3C21D100599D84 /* AppStart */,
+				8D748F6F2C3C326300B2590E /* Cells */,
 				8DB45DA12C3C21DA00599D84 /* Controllers */,
 				8DB45DA22C3C21E300599D84 /* Resources */,
 				8DB45D7E2C3C1F4C00599D84 /* Info.plist */,
@@ -287,6 +298,7 @@
 			files = (
 				8DB45D752C3C1F4800599D84 /* WeatherListTableViewController.swift in Sources */,
 				8DB45D712C3C1F4800599D84 /* AppDelegate.swift in Sources */,
+				8D748F712C3C327B00B2590E /* WeatherCell.swift in Sources */,
 				8DB45DA42C3C228E00599D84 /* AddWeatherCityViewController.swift in Sources */,
 				8DB45D732C3C1F4800599D84 /* SceneDelegate.swift in Sources */,
 			);
