@@ -7,10 +7,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setupBarAppearence()
+        setupDefaultSettings()
         return true
     }
     
-    func setupBarAppearence() {
+    private func setupBarAppearence() {
         let barAppearance = UINavigationBarAppearance()
         let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         
@@ -27,6 +28,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if #available(iOS 13, *) {
             UINavigationBar.appearance().standardAppearance = barAppearance
             UINavigationBar.appearance().scrollEdgeAppearance = barAppearance
+        }
+    }
+    
+    private func setupDefaultSettings() {
+        if UserDefaults.standard.value(forKey: "unit") == nil {
+            UserDefaults.standard.set(Unit.celsius.rawValue, forKey: "unit")
         }
     }
 

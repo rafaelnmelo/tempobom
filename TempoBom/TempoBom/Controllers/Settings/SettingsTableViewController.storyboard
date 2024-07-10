@@ -32,7 +32,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Configurações" id="tcR-7f-Cod">
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="VPG-9H-2Hb"/>
+                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="VPG-9H-2Hb">
+                            <connections>
+                                <action selector="done" destination="Fhc-Xu-uqI" id="I7S-01-F0e"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9nV-vO-aja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

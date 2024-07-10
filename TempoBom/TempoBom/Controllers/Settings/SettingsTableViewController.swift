@@ -1,12 +1,24 @@
 import UIKit
 
+protocol SettingsDelegate {
+    func settingsDone(viewModel: SettingsViewModel)
+}
+
 class SettingsTableViewController: UITableViewController {
     
-    private var settingViewModel = SettingsViewModel()
+    private var settingsViewModel = SettingsViewModel()
+    var delegate: SettingsDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
+    }
+    
+    @IBAction func done() {
+        if let delegate = self.delegate {
+            delegate.settingsDone(viewModel: settingsViewModel)
+            self.dismiss(animated: true, completion: nil)
+        }
     }
 }
 
@@ -18,17 +30,17 @@ extension SettingsTableViewController {
     
     override func tableView(_ tableView: UITableView,
                             numberOfRowsInSection section: Int) -> Int {
-        settingViewModel.units.count
+        settingsViewModel.units.count
     }
     
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let settingsItem = settingViewModel.units[indexPath.row]
+        let settingsItem = settingsViewModel.units[indexPath.row]
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "SettingsCell", for: indexPath)
         cell.textLabel?.text = settingsItem.displayName
         
-        if settingsItem == settingViewModel.selectedUnit {
+        if settingsItem == settingsViewModel.selectedUnit {
             cell.accessoryType = .checkmark
         }
         
@@ -48,7 +60,7 @@ extension SettingsTableViewController {
         if let cell = tableView.cellForRow(at: indexPath) {
             cell.accessoryType = .checkmark
             let unit = Unit.allCases[indexPath.row]
-            settingViewModel.selectedUnit = unit
+            settingsViewModel.selectedUnit = unit
         }
     }
     
