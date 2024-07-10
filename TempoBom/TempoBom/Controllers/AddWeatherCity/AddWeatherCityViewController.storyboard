@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O3v-T3-QT3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ws5-4m-ke7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O3v-T3-QT3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7b6-lL-LnO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7Y6-NW-LN1" kind="relationship" relationship="rootViewController" id="Wql-u3-x4v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezw-kq-OZ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647.826086956522" y="124.55357142857142"/>
+        </scene>
+        <!--Nova Cidade-->
+        <scene sceneID="Osq-2R-tgx">
+            <objects>
+                <viewController id="7Y6-NW-LN1" customClass="AddWeatherCityViewController" customModule="TempoBom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uB9-MO-pyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="aP1-qp-o2f">
+                                <rect key="frame" x="40" y="109" width="334" height="93"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qee-9R-Qbn">
+                                        <rect key="frame" x="67" y="0.0" width="200" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="ha6-X7-raI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7k5-1v-rbO">
+                                        <rect key="frame" x="135" y="62" width="64" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Salvar"/>
+                                        <connections>
+                                            <action selector="saveCityButtonPressed" destination="7Y6-NW-LN1" eventType="touchDown" id="in3-T4-I3o"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5xt-8d-WsT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aP1-qp-o2f" firstAttribute="leading" secondItem="5xt-8d-WsT" secondAttribute="leading" constant="40" id="Ypf-y3-TsL"/>
+                            <constraint firstItem="aP1-qp-o2f" firstAttribute="top" secondItem="5xt-8d-WsT" secondAttribute="top" constant="21" id="ZQf-Hn-zOi"/>
+                            <constraint firstItem="aP1-qp-o2f" firstAttribute="centerX" secondItem="5xt-8d-WsT" secondAttribute="centerX" id="lcJ-ve-cmo"/>
+                            <constraint firstItem="5xt-8d-WsT" firstAttribute="trailing" secondItem="aP1-qp-o2f" secondAttribute="trailing" constant="40" id="qPE-d6-VmK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nova Cidade" id="9d7-uw-sTW">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="kEe-iH-X1Q">
+                            <connections>
+                                <action selector="cancelButtonPressed" destination="7Y6-NW-LN1" id="GO4-Sf-nAR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cityTextLabel" destination="qee-9R-Qbn" id="kFV-FC-CSv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4u-Hb-ciu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2398.5507246376815" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
