@@ -61,7 +61,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Tempo Bom" id="BPC-7K-0vB">
-                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="Ma8-Yy-Iaz"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="Ma8-Yy-Iaz">
+                            <connections>
+                                <segue destination="vDJ-9U-hiN" kind="presentation" identifier="SettingsTableViewController" id="Cjc-cJ-2MO"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sxs-Nd-XjR">
                             <connections>
                                 <segue destination="DtJ-DM-RPR" kind="presentation" identifier="AddWeatherViewController" id="VLL-2p-35L"/>
@@ -79,7 +83,15 @@
                 <viewControllerPlaceholder storyboardName="AddWeatherCityViewController" id="DtJ-DM-RPR" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U3Q-r6-qyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551" y="125"/>
+            <point key="canvasLocation" x="1577" y="142"/>
+        </scene>
+        <!--SettingsTableViewController-->
+        <scene sceneID="jSQ-Ij-Tpm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SettingsTableViewController" id="vDJ-9U-hiN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9f-3f-pDV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="106"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="B5U-Jf-ppa">
