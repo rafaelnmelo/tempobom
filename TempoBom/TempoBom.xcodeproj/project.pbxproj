@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D20A3452C416F6B00F65F64 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20A3442C416F6B00F65F64 /* SettingsViewModelTests.swift */; };
 		8D43C8E32C3ECC65003513A3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43C8E22C3ECC65003513A3 /* SettingsViewModel.swift */; };
 		8D748F712C3C327B00B2590E /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D748F702C3C327B00B2590E /* WeatherCell.swift */; };
 		8DA6EEB12C3ECA9600F7D4FB /* SettingsTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA6EEB02C3ECA9600F7D4FB /* SettingsTableViewController.storyboard */; };
@@ -17,7 +18,6 @@
 		8DB45D782C3C1F4800599D84 /* WeatherListTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D762C3C1F4800599D84 /* WeatherListTableViewController.storyboard */; };
 		8DB45D7A2C3C1F4C00599D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D792C3C1F4C00599D84 /* Assets.xcassets */; };
 		8DB45D7D2C3C1F4C00599D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB45D7B2C3C1F4C00599D84 /* LaunchScreen.storyboard */; };
-		8DB45D882C3C1F4D00599D84 /* TempoBomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */; };
 		8DB45D922C3C1F4D00599D84 /* TempoBomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */; };
 		8DB45D942C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */; };
 		8DB45DA42C3C228E00599D84 /* AddWeatherCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB45DA32C3C228E00599D84 /* AddWeatherCityViewController.swift */; };
@@ -50,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D20A3442C416F6B00F65F64 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
 		8D43C8E22C3ECC65003513A3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		8D748F702C3C327B00B2590E /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		8DA6EEB02C3ECA9600F7D4FB /* SettingsTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsTableViewController.storyboard; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		8DB45D7C2C3C1F4C00599D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB45D7E2C3C1F4C00599D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DB45D832C3C1F4D00599D84 /* TempoBomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoBomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomTests.swift; sourceTree = "<group>"; };
 		8DB45D8D2C3C1F4D00599D84 /* TempoBomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoBomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB45D912C3C1F4D00599D84 /* TempoBomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomUITests.swift; sourceTree = "<group>"; };
 		8DB45D932C3C1F4D00599D84 /* TempoBomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoBomUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		8DB45D862C3C1F4D00599D84 /* TempoBomTests */ = {
 			isa = PBXGroup;
 			children = (
-				8DB45D872C3C1F4D00599D84 /* TempoBomTests.swift */,
+				8D20A3442C416F6B00F65F64 /* SettingsViewModelTests.swift */,
 			);
 			path = TempoBomTests;
 			sourceTree = "<group>";
@@ -420,7 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB45D882C3C1F4D00599D84 /* TempoBomTests.swift in Sources */,
+				8D20A3452C416F6B00F65F64 /* SettingsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
