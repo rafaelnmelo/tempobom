@@ -1,7 +1,7 @@
 import Foundation
 
 class WeatherListViewModel {
-    private var weatherViewModels = [WeatherViewModel]()
+    private(set) var weatherViewModels = [WeatherViewModel]()
     
     private func toCelsius() {
         weatherViewModels = weatherViewModels.map({ viewModel in

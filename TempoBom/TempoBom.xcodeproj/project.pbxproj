@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D20A3452C416F6B00F65F64 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20A3442C416F6B00F65F64 /* SettingsViewModelTests.swift */; };
+		8D20A3472C4172E600F65F64 /* WeatherListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20A3462C4172E600F65F64 /* WeatherListViewModelTests.swift */; };
 		8D43C8E32C3ECC65003513A3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43C8E22C3ECC65003513A3 /* SettingsViewModel.swift */; };
 		8D748F712C3C327B00B2590E /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D748F702C3C327B00B2590E /* WeatherCell.swift */; };
 		8DA6EEB12C3ECA9600F7D4FB /* SettingsTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA6EEB02C3ECA9600F7D4FB /* SettingsTableViewController.storyboard */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		8D20A3442C416F6B00F65F64 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
+		8D20A3462C4172E600F65F64 /* WeatherListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModelTests.swift; sourceTree = "<group>"; };
 		8D43C8E22C3ECC65003513A3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		8D748F702C3C327B00B2590E /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		8DA6EEB02C3ECA9600F7D4FB /* SettingsTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsTableViewController.storyboard; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				8D20A3442C416F6B00F65F64 /* SettingsViewModelTests.swift */,
+				8D20A3462C4172E600F65F64 /* WeatherListViewModelTests.swift */,
 			);
 			path = TempoBomTests;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D20A3452C416F6B00F65F64 /* SettingsViewModelTests.swift in Sources */,
+				8D20A3472C4172E600F65F64 /* WeatherListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
